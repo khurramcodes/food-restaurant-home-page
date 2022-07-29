@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label="navbar"]{
+  position: absolute;
+  width: 100%;
+  padding: 30px 250px 0 250px;
+}
+
+section .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo{
+  width: 65%;
+}
+
+.navbar div .list{
+  display: flex;
+}
+
+.navbar div .list li{
+  margin-right: 20px;
+  color: #FFC233;
+}
+
+.navbar div .button-small{
+  background-color: #FF505F;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+}
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label="hero"]{
+  width: 100%;
+  height: 100vh;
+  background: url('./assets/pexels-maxyne-barcel-10402282\ 1.png') rgba(27, 65, 120, 0.9);
+  background-position: 70% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+section .hero{
+  text-align: center;
+  padding: 150px 300px;
+}
+
+.hero .hero-heading{
+  font-size: 90px;
+  font-weight: 700;
+  color: #FFC233;
+  line-height: 1;
+}
+
+.hero .button-large{
+  background-color: #FF505F;
+  border: none;
+  padding: 15px 40px;
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.bottom{
+ position: absolute;
+ right: 250px;
+ bottom: 10%;
+}
+
+.bottom img{
+  width: 100px;
+}
