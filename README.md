@@ -7,7 +7,7 @@
 
 ![time](https://img.shields.io/badge/time--to--complete-4.5--hrs--approx.-yellowgreen)
 
-## :link: [See it live]()
+## :link: [See it live](https://fullstack-js-bc-project-02.netlify.app/)
 
 
 ## :clipboard: Learning Outcomes 
